@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="6" failed="0" total="6" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="162" started-at="2022-07-17T15:28:38Z" finished-at="2022-07-17T15:28:38Z">
+    <groups>
+      <group name="barath">
+        <method signature="FlikartTaskNew.logIn()[pri:1, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="logIn" class="org.flikart.FlikartTaskNew"/>
+        <method signature="FlikartTaskNew.method2(java.lang.String)[pri:2, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="method2" class="org.flikart.FlikartTaskNew"/>
+        <method signature="FlikartTaskNew.method3()[pri:3, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="method3" class="org.flikart.FlikartTaskNew"/>
+        <method signature="FlikartTaskNew.method4()[pri:4, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="method4" class="org.flikart.FlikartTaskNew"/>
+        <method signature="FlikartTaskNew.method6()[pri:6, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="method6" class="org.flikart.FlikartTaskNew"/>
+        <method signature="FlikartTaskNew.multiple()[pri:5, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="multiple" class="org.flikart.FlikartTaskNew"/>
+      </group> <!-- barath -->
+    </groups>
+    <test name="Default test" duration-ms="162" started-at="2022-07-17T15:28:38Z" finished-at="2022-07-17T15:28:38Z">
+      <class name="org.flikart.FlikartTaskNew">
+        <test-method status="FAIL" signature="browserLaunch(java.lang.String)[pri:0, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="browserLaunch" is-config="true" duration-ms="0" started-at="2022-07-17T20:58:38Z" finished-at="2022-07-17T20:58:38Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Configuration on method browserLaunch but has not been marked @Optional or defined
+in C:\Users\SRITHAR\AppData\Local\Temp\testng-eclipse-2086010037\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Configuration on method browserLaunch but has not been marked @Optional or defined
+in C:\Users\SRITHAR\AppData\Local\Temp\testng-eclipse-2086010037\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:202)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-07-17T20:58:38Z" finished-at="2022-07-17T20:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="logIn()[pri:1, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="logIn" duration-ms="11" started-at="2022-07-17T20:58:38Z" finished-at="2022-07-17T20:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-07-17T20:58:38Z" finished-at="2022-07-17T20:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-07-17T20:58:38Z" finished-at="2022-07-17T20:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="method2(java.lang.String)[pri:2, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="method2" duration-ms="2" started-at="2022-07-17T20:58:38Z" data-provider="mobile" finished-at="2022-07-17T20:58:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[redmi mobiles]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-07-17T20:58:38Z" finished-at="2022-07-17T20:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-07-17T20:58:38Z" finished-at="2022-07-17T20:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="method3()[pri:3, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="method3" duration-ms="5" started-at="2022-07-17T20:58:38Z" finished-at="2022-07-17T20:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-07-17T20:58:38Z" finished-at="2022-07-17T20:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-07-17T20:58:38Z" finished-at="2022-07-17T20:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="method4()[pri:4, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="method4" duration-ms="2" started-at="2022-07-17T20:58:38Z" finished-at="2022-07-17T20:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method4 -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-07-17T20:58:38Z" finished-at="2022-07-17T20:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-07-17T20:58:38Z" finished-at="2022-07-17T20:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="multiple()[pri:5, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="multiple" duration-ms="2" started-at="2022-07-17T20:58:38Z" finished-at="2022-07-17T20:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiple -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-07-17T20:58:38Z" finished-at="2022-07-17T20:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-07-17T20:58:38Z" finished-at="2022-07-17T20:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="method6()[pri:6, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="method6" duration-ms="3" started-at="2022-07-17T20:58:38Z" finished-at="2022-07-17T20:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-07-17T20:58:38Z" finished-at="2022-07-17T20:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="browserquit()[pri:0, instance:org.flikart.FlikartTaskNew@66a3ffec]" name="browserquit" is-config="true" duration-ms="0" started-at="2022-07-17T20:58:38Z" finished-at="2022-07-17T20:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- org.flikart.FlikartTaskNew -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
